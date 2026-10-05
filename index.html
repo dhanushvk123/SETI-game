@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#04070d">
+<title>SETI: SIGNAL UNKNOWN</title>
+<meta name="description" content="A fictional educational radio-astronomy simulation. Detect, analyze and decode an unknown signal.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="stars" aria-hidden="true"></canvas>
+<header id="hud" hidden>
+  <div class="brand">SIGNAL UNKNOWN</div>
+  <div class="seg" id="seg"><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="stat"><small>SCORE</small><b id="sc">0</b></div>
+  <div class="stat"><small>MISSION TIME</small><b id="tm">12:00</b></div>
+</header>
+<main id="app"></main>
+<div id="toasts" aria-live="polite"></div>
+<div id="modal" hidden role="dialog" aria-modal="true"></div>
+<script src="script.js"></script>
+</body>
+</html>
